@@ -1,0 +1,24 @@
+{
+  "intents": [
+    {
+      "tag": "greeting",
+      "patterns": ["Hi", "Hello", "Hey", "Good morning"],
+      "responses": ["Hello! How can I assist you today?", "Hi there!"]
+    },
+    {
+      "tag": "goodbye",
+      "patterns": ["Bye", "Goodbye", "See you later"],
+      "responses": ["Goodbye! Have a great day!", "See you soon!"]
+    },
+    {
+      "tag": "thanks",
+      "patterns": ["Thanks", "Thank you", "Much appreciated"],
+      "responses": ["You're welcome!", "Happy to help!"]
+    },
+    {
+      "tag": "creator",
+      "patterns": ["Who created you?", "Who made you?"],
+      "responses": ["I was created by Rishi Verma as a demo AI project."]
+    }
+  ]
+}
